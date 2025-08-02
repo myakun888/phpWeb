@@ -21,19 +21,6 @@
       <button type="submit" name="kirim">kirim</button>
    </form>
 
-   <?php
-
-   ?>
-   <?php
-
-
-   ?>
-   <?php if (isset($_POST["kirim"])) :  ?>
-
-
-      <h2>ini adalah hasil input dari form post <?PHP echo ($_POST["input"])  ?></h2>
-
-   <?php endif ?>
 
 
 </body>

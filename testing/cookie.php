@@ -1,17 +1,24 @@
+<?php
+setcookie("name", "muhammad");
+
+header("location: cookie_2.php");
+
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>hasil dari form post</title>
+   <title>Cookie</title>
 </head>
 
 <body>
 
-   <h1>ini adalah data yang anda input <?= $_POST["input"] ?></h1>
-
-   <a href="./11.form_post.php">kembali ke form post</a>
+   <?= $_COOKIE ?>
 </body>
 
 </html>
